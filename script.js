@@ -10,7 +10,7 @@ function onFormSubmit() {
         resetForm();
     }
 }
-
+/*get the input data*/
 function readFormData() {
     var formData = {};
     formData["firstName"] = document.getElementById("firstName").value;
